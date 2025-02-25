@@ -18,9 +18,9 @@ stacking_regressor = joblib.load(model_path)
 # 设置页面配置和标题
 st.set_page_config(layout="wide", page_title="Stacking 模型预测与 SHAP 可视化", page_icon="📊")
 
-st.title("📊 Stacking 模型预测与 SHAP 可视化分析")
+st.title("📊 基于Stacking 模型的初产妇分娩心理创伤风险因素预测与 SHAP 可视化分析")
 st.write("""
-通过输入特征值进行模型预测，并结合 SHAP 分析结果，了解特征对模型预测的贡献。
+通过输入特征值进行模型预测，并结合 SHAP 分析结果，了解特征对模型预测的贡献百分比%。
 """)
 
 # 左侧侧边栏输入区域
